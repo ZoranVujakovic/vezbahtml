@@ -1,0 +1,44 @@
+body, html {
+width: 100%; height: 100%;
+margin: 0;
+padding: 0;
+  background-image: url(slike/passat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -150px;
+  border-radius: 40px;
+border: 7px solid white;
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container h1{margin: 0;
+text-align: center;
+color: white;
+margin-top: 30px;
+font-size: 30pt;
+
+}
+.container button{
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-right: -20px;
+  font-size: 17pt;
+  font-family: Georgia, serif;
+
+}
+
+.container button:hover{background-color: rgb(28, 94, 136);}
