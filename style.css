@@ -42,3 +42,70 @@ font-size: 30pt;
 }
 
 .container button:hover{background-color: rgb(28, 94, 136);}
+
+header{
+width: 100%;
+height: 70px;
+background-color:rgba(92, 83, 81, 0.68);
+  }
+
+header input{
+  height: 35px;
+  margin-top: 13px;
+  margin-left: 15px;
+  font-size: 18px;
+  float: left;
+}
+header h1 {
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+}
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color:rgba(92, 83, 81, 0.68);
+
+
+}
+
+
+
+.dropdown {
+  width: 350px;
+  height: 400px;
+  float: left;
+}
+
+.dropdown h1 {
+  text-align: center;
+}
+
+.dropdown:hover li
+{
+display: block;
+}
+
+.dropdown li {
+  height: 30px;
+  width: 262px;
+  list-style-type: none;
+  text-align: center;
+  background-color: rgba(92, 83, 81, 0.68);
+  display: none;
+}
+
+#glavni {
+  height: 500px;
+}
+.slike {
+  list-style-type: none;
+  float: left;
+}
+#first {
+  width: 100%;
+  height: 600px;
+}
