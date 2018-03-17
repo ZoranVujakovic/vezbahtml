@@ -68,6 +68,8 @@ footer{
   width: 100%;
   height: 70px;
   background-color:rgba(92, 83, 81, 0.68);
+position: fixed;
+bottom: 0;
 
 
 }
@@ -100,12 +102,30 @@ display: block;
 
 #glavni {
   height: 500px;
+  width: 100%;
 }
 .slike {
   list-style-type: none;
   float: left;
+  width: 1000px;
 }
 #first {
   width: 100%;
   height: 600px;
+}
+
+.slike li {
+  list-style-type: none;
+  float: left;
+  width: 400px;
+  height: 250px;
+  overflow: none;
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+}
+
+.slike img {
+  width: 400px;
+  height: 250px;
 }
